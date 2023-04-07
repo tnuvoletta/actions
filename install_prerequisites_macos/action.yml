@@ -1,0 +1,6 @@
+name: 'install_prerequisites_macos'
+description: 'Install prerequisites for MacOs'
+runs:
+  using: 'shell'
+  shell: 'bash'
+  command: './action.sh'
